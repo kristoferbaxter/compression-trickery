@@ -1,0 +1,26 @@
+{
+  "name": "compression-trickery",
+  "version": "1.0.0",
+  "description": "Compression trickery",
+  "main": "index.js",
+  "author": "Kristofer Baxter",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn tsc -p config/tsconfig.build.json",
+    "bundle": "yarn build && yarn rollup --config config/rollup.config.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "v7.0.0-beta.40",
+    "@babel/core": "v7.0.0-beta.40",
+    "@babel/plugin-proposal-class-properties": "v7.0.0-beta.40",
+    "@babel/plugin-proposal-object-rest-spread": "v7.0.0-beta.40",
+    "@babel/preset-env": "v7.0.0-beta.40",
+    "iltorb": "^2.0.5",
+    "rollup": "0.56.3",
+    "rollup-plugin-babel": "4.0.0-beta.2",
+    "rollup-plugin-commonjs": "8.3.0",
+    "rollup-plugin-node-resolve": "3.0.3",
+    "rollup-plugin-uglify": "^3.0.0",
+    "typescript": "^2.7.2"
+  }
+}

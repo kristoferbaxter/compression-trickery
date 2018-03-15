@@ -1,0 +1,41 @@
+/* All these classnames are included in the Brotli static dictionary, so they compress pretty well */
+.html {
+  color: blue;
+}
+
+.append {
+  background: orange;
+}
+
+.length {
+  height: 100%;
+}
+
+.remove {
+  padding-top: 100em;
+}
+
+.search {
+  text-decoration: none;
+}
+
+/* However, these compress better */
+.a {
+  color: blue;
+}
+
+.b {
+  background: orange;
+}
+
+.c {
+  height: 100%;
+}
+
+.d {
+  padding-top: 100em;
+}
+
+.e {
+  text-decoration: none;
+}
